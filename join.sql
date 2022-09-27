@@ -32,3 +32,9 @@ select users.id, users.name, todos.title  from users inner join todos on users.i
 -- Este es un inner join y no importa cual es cual
 select users.id, users.name, todos.title  from users inner join todos on users.id = todos.user_id where users.id = '26f22f51-90a9-4f59-9b1a-93f145815caf';
 
+
+
+
+
+
+
